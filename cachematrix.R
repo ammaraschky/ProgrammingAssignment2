@@ -3,10 +3,10 @@
 # Its purpose is to store a matrix and a cached value of the inverse of the matrix. 
 #
 # It contains the following functions:
-# - setMatrix      set the value of a matrix
-# - getMatrix      get the value of a matrix
-# - cacheInverse   set the cached value (inverse of the matrix)
-# - getInverse     get the cached value (inverse of the matrix)
+# - set           set the value of a matrix
+# - get           get the value of a matrix
+# - setInverse    set the cached value (inverse of the matrix)
+# - getInverse    get the cached value (inverse of the matrix)
 
 makeCacheMatrix <- function(x = matrix()) {
       
